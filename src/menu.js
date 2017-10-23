@@ -9,7 +9,7 @@ export default class MenuState {
         const {game} = this;
         let l_name = game.add.text(80, 80, "this is a game", { font: '50px inconsolata', fill: "#ffffff" })
 
-        var wkey = game.input.keyboard.addKey(Phaser.Keyboard.W);
+        var wkey = game.input.keyboard.addKey(Phaser.Keyboard.ENTER);
         wkey.onDown.addOnce(this.start, this);
     }
     start() {

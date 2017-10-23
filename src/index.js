@@ -4,7 +4,7 @@ import 'phaser';
 
 import pkg from '../package.json';
 import MenuState from "./menu";
-import Play from "./game";
+import GameState from "./game";
 // This is the entry point of your game.
 
 const config = {
@@ -17,7 +17,7 @@ const config = {
     create,
   },
   transparent: false,
-  antialias: true,
+  antialias: false,
   physicsConfig: { arcade: true },
 };
 
@@ -26,7 +26,7 @@ window.onload = () => {
   const game = new Phaser.Game(config);
   console.log(game);
   game.state.add('menu', MenuState);
-  game.state.add('play', MenuState);
+  game.state.add('play', GameState,false);
   game.state.start('menu');
   
 }
