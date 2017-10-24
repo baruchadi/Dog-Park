@@ -1,3 +1,5 @@
+# Try it now! <a href = "http://foamrealm.com/challenges/dogpark/">CLICK HERE</a>
+
 # Dog Park
 <li>2D multiplayer game.</li>
 <li>Server can be found here: https://github.com/baruchadi/DogPark-Server</li>
