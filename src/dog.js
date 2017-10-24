@@ -1,3 +1,5 @@
+
+
 export default class Dog {
   state = {
     x: 0,
@@ -11,5 +13,5 @@ export default class Dog {
     this.state.Texture = AssetID;
   }
 
-  
+
 }

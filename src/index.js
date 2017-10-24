@@ -5,6 +5,7 @@ import 'phaser';
 import pkg from '../package.json';
 import MenuState from "./menu";
 import GameState from "./game";
+
 // This is the entry point of your game.
 
 const config = {
